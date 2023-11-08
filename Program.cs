@@ -76,6 +76,7 @@ foreach (Car car in SortedCars)
 }
 
 //Show Cars from 2000 and 2020
+//Do it by using where clause
 Console.WriteLine("-------------------------------");
 Console.WriteLine("Find Cars");
 List<Car> filteredCars = Cars.Where(Car => Car.Year >= 2000 && Car.Year <= 2020).ToList();
